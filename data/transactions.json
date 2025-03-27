@@ -1,0 +1,22 @@
+[
+    {
+        "transaction_id":1,
+        "user_id":1,
+        "wallet_id":1,
+        "crypto_id":1,
+        "type":"BUY",
+        "amout":"0.05",
+        "price_per_coin":60000.00,
+        "total_price":3000.00
+    },
+    {
+        "transaction_id":2,
+        "user_id":2,
+        "wallet_id":2,
+        "crypto_id":2,
+        "type":"SELL",
+        "amout":"1",
+        "price_per_coin":3000.00,
+        "total_price":3000.00
+    }
+]

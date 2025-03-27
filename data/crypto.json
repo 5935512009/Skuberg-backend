@@ -1,0 +1,14 @@
+[
+    {
+        "crypto_id":1,
+        "name":"Bitcoin",
+        "symbol":"BTC",
+        "price":60000.00
+    },
+    {
+        "crypto_id":2,
+        "name":"Ethereum",
+        "symbol":"ETH",
+        "price":3000.00
+    }
+]
