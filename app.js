@@ -3,7 +3,7 @@ const express = require("express");
 const userRoutes = require("./routes/userRoutes");
 const walletRoutes = require("./routes/walletRoutes");
 const cryptoRoutes = require("./routes/cryptoRoutes");
-const transactions = require("./routes/transactionRoutes");
+const transactionRoutes = require("./routes/transactionRoutes");
 const app = express();
 app.use(express.json());
 
@@ -20,7 +20,8 @@ app.get('/test', (req, res) => {
 app.use("/users", userRoutes);
 app.use("/wallets",walletRoutes);
 app.use("/cryptos",cryptoRoutes);
-app.use("/transactions",transactions);
+app.use("/transactions",transactionRoutes);
+
 // // เสิร์ฟหน้า index.html
 // app.get("/", (req, res) => {
 //     res.sendFile(path.join(__dirname, "views", "index.html"));
