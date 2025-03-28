@@ -13,8 +13,8 @@ app.use(express.json());
 // app.use(express.static(path.join(__dirname, "views/crypto_coin")));  // ต้องให้ path ตรงกับโฟลเดอร์จริง
 
 // ทดสอบ API
-app.get('/test', (req, res) => {
-    res.json("test hello world");
+app.get('/', (req, res) => {
+    res.json("well come to test API localhost:4001 สามารถดูวิธีการใช้งานได้บน github ที่ README");
 });
 
 app.use("/users", userRoutes);
